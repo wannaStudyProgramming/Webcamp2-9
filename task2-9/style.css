@@ -54,10 +54,31 @@ main{
   top: 0;
   left: 0;
   background-color: #FF9A4B;
-  color: #fff;
+  color: rgb(196, 117, 117);
   padding: 3px;
 }
 
 .title{
   margin: 15px 0 5px;
 }
+
+@media screen and (max-width:768px){
+  .step-boxes{
+    padding: 50px 0;
+  }
+
+  main{
+    width: 100%;
+  }
+  .step-box{
+    float: none;
+    width: 90%;
+  }
+
+
+  .step-box:nth-child(2){
+    margin: 20px 0;
+  }
+}
+
+
