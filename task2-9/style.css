@@ -63,18 +63,20 @@ main{
 }
 
 @media screen and (max-width:768px){
-  .step-boxes{
-    padding: 50px 0;
+
+
+  .step-box{
+    float: none;
+    display: inline-block;
+    width: 90%;
+    margin-right: 0;
   }
 
   main{
     width: 100%;
+    text-align: center;
+    padding: 50px 0;
   }
-  .step-box{
-    float: none;
-    width: 90%;
-  }
-
 
   .step-box:nth-child(2){
     margin: 20px 0;
