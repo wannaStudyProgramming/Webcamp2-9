@@ -75,7 +75,9 @@ main{
   main{
     width: 100%;
     text-align: center;
-    padding: 50px 0;
+    /*[fixed]margin is defined out of @media, therefore,if padding is 50px,  the distance between
+    page-top and top box is 100px.*/
+    /*padding: 50px 0;*/
   }
 
   .step-box:nth-child(2){
